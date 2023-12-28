@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inactive{
+    display: none;
+}
+.card{
+    @apply flex items-center justify-between mb-6 cursor-pointer
+}
+.title{
+    @apply text-Dark-purple font-semibold hover:text-Grayish-purple max-sm:w-60
+}
+.paragraph{
+    @apply w-full pr-2 font-normal mb-6 text-Paragraph 
+}
+.content-icons{
+    @apply flex
+}
